@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Langgeng Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sidebar styling */
+        .sidebar {
+            width: 220px;
+            height: 100vh;
+            position: fixed;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+
+        /* Content area */
+        .content {
+            margin-left: 240px;
+            padding: 20px;
+        }
+
+        .header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 50px;
+        }
+
+        .store-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .store-info img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        .store-info div {
+            font-size: 18px;
+        }
+
+        /* Product list */
+        .product-list {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .product-item:last-child {
+            border-bottom: none;
+        }
+
+        .product-item img {
+            width: 50px;
+            margin-right: 20px;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .product-info div {
+            font-size: 16px;
+        }
+
+        .product-rating {
+            font-size: 16px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#">Beranda</a>
+        <a href="#">Order</a>
+        <a href="#">Transaksi</a>
+        <a href="#">Tentang Kami</a>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        <!-- Header -->
+        <div class="header">
+            <div class="store-info">
+                <img src="/Users/abdullohghaza/Downloads/137ab3b584781e8e3bacaebe9486c326.jpg" alt="MLBB Logo">
+                <div>
+                    <h2>Langgeng Store</h2>
+                    <p>@langgeng_store</p>
+                    <p>085895983173</p>
+                </div>
+            </div>
+            <img src="/Users/abdullohghaza/Downloads/National_emblem_of_Indonesia_Garuda_Pancasila.svg.webp" alt="Banner" width="900">
+        </div>
+
+        <!-- Product List -->
+        <div class="product-list">
+            <div class="product-item">
+                <div class="product-info">
+                    <img src="/Users/abdullohghaza/Downloads/images.jpeg" alt="Joki Rank">
+                    <div>
+                        <h3>Joki Rank</h3>
+                        <p>Harga menyesuaikan tiap rank, pemrosesan cepat sesuai target dan waktu yang tepat</p>
+                    </div>
+                </div>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-info">
+                    <img src="/Users/abdullohghaza/Downloads/png-transparent-gold-and-black-vip-badge-logo-computer-servers-vip-miscellaneous-emblem-video-game-thumbnail.png" alt="Open Mabar VIP">
+                    <div>
+                        <h3>Open Mabar VIP</h3>
+                        <p>Order main bersama para top global dan pro player, dijamin win streak</p>
+                    </div>
+                </div>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-info">
+                    <img src="/Users/abdullohghaza/Downloads/964320200914081250.png" alt="Beli Akun MLBB">
+                    <div>
+                        <h3>Beli Akun MLBB</h3>
+                        <p>Kumpulan akun MLBB, harga terjangkau dan terpercaya</p>
+                    </div>
+                </div>
+                <div class="product-rating">
+                    ★★★★★
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2024 Langgeng Store. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
